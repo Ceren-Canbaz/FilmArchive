@@ -2,9 +2,9 @@
 using System.Collections.Generic;
 using System.Text;
 
-namespace DataAccess.Concerete.EntityFramework
+namespace Core.Entities
 {
-	public class EfCommentDal
+	public interface IEntity
 	{
 	}
 }

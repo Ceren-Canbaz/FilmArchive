@@ -1,6 +1,8 @@
-﻿namespace DataAccess.Abstract
+﻿using Core.DataAccess;
+using Entities.Concrete;
+namespace DataAccess.Abstract
 {
-	public interface IFavoriteListDal
+	public interface IFavoriteListDal: IEntityRepository<FavoriteList>
 	{
 	}
 }
