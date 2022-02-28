@@ -10,4 +10,4 @@ namespace Core.Utilities.Results.Abstract
 		string Message { get; }
 	}
 }
-}
+
